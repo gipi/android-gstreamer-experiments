@@ -1,0 +1,8 @@
+This is a fork from the GStreamer SDK tutorial 3 code. Obviously
+you need the GStreamer SDK.
+
+ $ cd android-gst-experiments
+ $ export GSTREAMER_SDK_ROOT_ANDROID=/path/to/gst/sdk/
+ $ android update project -p . -s --target 20
+ $ ndk-build
+ $ ant debug && ant installd
